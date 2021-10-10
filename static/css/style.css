@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'a_astro_spaceregular';
+    src: url('/static/assets/astrospace-ez2bg-webfont.woff2') format('woff2'),
+         url('/static/assets/astrospace-ez2bg-webfont.woff') format('woff');
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'a_astro_spaceregular',Fallback,sans-serif;
+}
+.lefts{
+    background-image: url(/static/assets/2.jpg);
+}
+.tap{
+  height: 7rem;
+  width: 7rem;
+  text-align: center;
+  font-size:5rem;
+  color: black;
+  background-color: white;
+  border: 4px solid black;
+  }
+  #choosed{
+      display: none;
+  }
+  #playername{
+      display: none;
+      padding-bottom: 1rem;
+  }
+  .labelg{
+      color: white;
+      font-size: 1.2rem;
+      margin-right: 10px;
+  }
+  .newb{
+      margin-bottom: 20px !important;
+  }
+  .nameinput{
+      width: 40%;
+      min-width: 100px;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+  }
+  .nameinput:focus{
+    outline: none;
+    border: 2px solid rgb(19, 198, 230);
+  }
+  .teamname{
+      padding-top: 3.5rem;
+      padding-bottom: 4rem;
+      font-size: 2.5rem;
+  }
+  #tabler{
+    cursor: not-allowed;
+  }
+  #xscore , #oscore{
+      background-color: transparent;
+      color: white;
+      border: none;
+      font-size: 1.6rem;
+  }
+  .btn{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: all ease 0.4s;
+    border: 2px solid rgb(19, 198, 230);
+  }
+  .btn:hover{
+      background-color: rgb(19, 198, 230);
+  }
+  .tablediv{
+    padding: 3rem 0rem;
+  }
+.c1 , .c2, .c3{
+    border-top: none;
+}
+.c3 , .c6 , .c9{
+    border-right: none;
+}
+.c1 , .c4 , .c7{
+    border-left: none;
+}
+.c7 , .c8 , .c9{
+    border-bottom: none;
+}
+.tap:focus{
+    outline: none;
+    box-shadow: none;
+}
+#result{
+    color: black;
+    padding-top: 3rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    -webkit-user-select: none;      /* Safari */        
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* IE10+/Edge */
+    user-select: none; 
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+td{
+    padding: 0px;
+    border: none;
+}
+.tabletic{
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    vertical-align: middle;
+}
+.row{
+    height: 100vh;
+}
+.github{
+    font-size: 0.7rem;
+    color: white;
+    margin-bottom: 1rem;
+    transition: all ease 0.2s;
+}
+.github:hover{
+    text-decoration: none;
+    color: rgb(19, 198, 230);
+}
+
+ 
